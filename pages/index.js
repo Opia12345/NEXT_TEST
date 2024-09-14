@@ -26,7 +26,7 @@ const home = ({ users }) => {
         </button>
       </header>
       <h2 className="text-3xl font-bold p-4 underline">Users</h2>
-      {users.map((user) => (
+      {/* {users.map((user) => (
         <div
           key={user.id}
           className="text-xl font-bold bg-gray-900 p-4 hover:border-l-white hover:border-l mt-4"
@@ -35,7 +35,7 @@ const home = ({ users }) => {
             <h3>{user.name}</h3>
           </Link>
         </div>
-      ))}
+      ))} */}
     </>
   );
 };
